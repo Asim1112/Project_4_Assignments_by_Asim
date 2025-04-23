@@ -24,7 +24,7 @@ while "_" in blanks and tries > 0:
 
 
     if guess in guessed_letters:
-        print("⚠️ You already guessed that letter.")
+        print("You already guessed that letter.")
         continue
 
     guessed_letters.append(guess)
